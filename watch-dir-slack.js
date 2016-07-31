@@ -18,7 +18,7 @@ slack.setWebhook(webhookUri);
 
 
 // Initialize watcher. 
-var watcher = chokidar.watch('/Users/anupamdebnath/nodeScripts/node-watcher-slack/error.log', {
+var watcher = chokidar.watch('/<path>/error.log', {
   ignored: /[\/\\]\./,
   persistent: true
 });
@@ -32,7 +32,7 @@ watcher
 
   // When file changes slack message is initiated
   .on('change', path => slack.webhook({
-	  channel: "code-check",
+	  channel: "#general",
 	  username: "webhookbot",
 	  text: "There are changes in error.log"
 	}, function(err, response) {

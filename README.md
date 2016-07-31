@@ -7,6 +7,10 @@ Following npm packages have been used:
 1. [slack-node ](https://www.npmjs.com/package/slack-node)
 2. [chokidar](https://www.npmjs.com/package/chokidar)
 
+
+Create a webhook and use the uri in the code to get messages in slack 
+
+
  
 
 

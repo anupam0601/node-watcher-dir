@@ -8,7 +8,7 @@ Following npm packages have been used:
 2. [chokidar](https://www.npmjs.com/package/chokidar)
 
 
-Create a webhook and use the uri in the code to get messages in slack 
+Create a webhook and use the uri in the code to get messages in slack
 
 
  

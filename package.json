@@ -1,7 +1,7 @@
 {
   "name": "node-watcher-slack",
   "version": "1.0.0",
-  "description": "watch a dir and push to slack once there is a change",
+  "description": "watch a file/dir and push to slack once there is a change",
   "main": "watch-slack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
